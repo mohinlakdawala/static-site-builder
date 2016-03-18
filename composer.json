@@ -1,0 +1,5 @@
+{
+    "require": {
+        "jigsaw/jigsaw": "^0.4.1"
+    }
+}
