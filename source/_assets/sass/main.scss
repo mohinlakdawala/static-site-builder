@@ -1,0 +1,7 @@
+@import 'partials/colors';
+ 
+h1.main-title {
+    color: $primary-color;
+    text-transform: uppercase;
+    font-weight: bold;
+}
