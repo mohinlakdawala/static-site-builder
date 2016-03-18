@@ -6,11 +6,12 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         @yield('plugin-styles')
         <link rel="stylesheet" href="/css/app.css">
-    </head>
+    </head> 
     <body>
         @include ('_partials/header')  
         @yield('body')
         <script type="text/javascript" src="/js/app.js"></script>
         @yield('plugin-scripts')
+        @include('_partials/footer')
     </body>
 </html>
