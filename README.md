@@ -5,9 +5,9 @@ Based on [Jigsaw static site generator](https://github.com/tightenco/jigsaw)
 To get started run the following commands:
 
 ```bash
+ composer install
  npm install 
  bower install
- composer install
 ```
 
 This should bring in all the dependencies.
