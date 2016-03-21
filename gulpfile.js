@@ -17,6 +17,7 @@ elixir(function(mix) {
     
     // Bower and static CSS - path should be given relative to source/_assets/css directory
     mix.styles([
+        bowerPath + '/tether/dist/css/tether.css',
         bowerPath + '/bootstrap/dist/css/bootstrap.css',
         bowerPath + '/font-awesome/css/font-awesome.css',
         compiledCssPath + '/main.css'
@@ -25,7 +26,10 @@ elixir(function(mix) {
     // Javascript concat and minify - path should be given relative to source/js directory
     mix.scripts([
         bowerPath + '/jquery/dist/jquery.js',
+        bowerPath + '/tether/dist/js/tether.js',            
         bowerPath + '/bootstrap/dist/js/bootstrap.js',            
+        bowerPath + '/vue/dist/vue.js',            
+        bowerPath + '/vueboot/dist/vueboot.js',            
         'app.js'
     ], 'source/js/app.js');
 
@@ -37,6 +41,7 @@ elixir(function(mix) {
             'build_local/css/*.css',      // This is the one required to get the CSS to inject
             'build_local/**/*.html'       // Watch the views for changes & force a reload
         ],
-        proxy: 'mohin-sandbox.dev.aecortech.com/'
+        proxy: 'mohin-sandbox.dev.aecortech.com/',
+        port: 3002
     });
 });
