@@ -41,7 +41,7 @@ elixir(function(mix) {
             'build_local/css/*.css',      // This is the one required to get the CSS to inject
             'build_local/**/*.html'       // Watch the views for changes & force a reload
         ],
-        proxy: 'mohin-sandbox.dev.aecortech.com/',
+        proxy: 'example.com',
         port: 3002
     });
 });
