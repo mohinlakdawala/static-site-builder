@@ -32,5 +32,7 @@ Added the following dependencies:
  * Laravel elixir for gulpfile management
  * SCSS
  * Browsersync for live reloading
- * Bootstrap
+ * [Bootstrap 4](http://v4-alpha.getbootstrap.com/)
  * Font-awesome
+ * [Vue](https://vuejs.org)
+ * [Vueboot](http://morgul.github.io/vueboot/)
