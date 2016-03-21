@@ -34,9 +34,4 @@
            :on-closed="onClosed">
         This message should time out after 4 seconds.
     </alert>
-</div>
-@endsection
-
-@section('plugin-scripts')
-
 @endsection

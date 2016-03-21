@@ -11,4 +11,4 @@
           <a class="nav-link" href="/contact-us">Contact</a>
         </li>
       </ul>
-    </nav>
+</nav>

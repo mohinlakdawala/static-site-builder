@@ -17,6 +17,7 @@
     "bootstrap": "v4.0.0-alpha.2",
     "vue": "~1.0.18",
     "vueboot": "~0.3.0",
-    "tether": "~1.2.0"
+    "tether": "~1.2.0",
+    "bootstrap": "~3.3.6"
   }
 }
